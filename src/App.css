@@ -1,5 +1,9 @@
 .App {
+  margin: auto;
   text-align: center;
   font-size: 20px;
+  background-color:#012169 ;
+  width: 500px;
+  border-radius: 17px;
 }
 
