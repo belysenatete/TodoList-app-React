@@ -8,10 +8,10 @@ import './App.css';
 function App() {
   const [todoList, setTodoList] = useState([]);
   const [taskId, setTaskId] = useState(0);  // new state to hold unique id
-
-  const addTask = (newTask) => {
+const addTask = (newTask) => {
     setTodoList([...todoList, { id: taskId, name: newTask }]);
-    setTaskId(taskId + 1);  // increment the id for the next task
+    
+  setTaskId(taskId + 1);  // increment the id for the next task
 };
 
 const removeTask = (taskIdToRemove) => {
